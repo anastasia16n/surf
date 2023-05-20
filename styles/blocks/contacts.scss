@@ -1,0 +1,18 @@
+.section__contacts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.map {
+  display: flex;
+  justify-content: center;
+}
+
+.map-content {
+  max-width: $containerWidth;
+  min-height: 36.222rem;
+  display: flex;
+  justify-content: center;
+}

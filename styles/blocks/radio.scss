@@ -1,0 +1,62 @@
+.radio {
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 0.556rem;
+  align-items: center;
+}
+
+// @include phones {
+//   margin-bottom: 0.556rem;
+// }
+
+
+.radio__checkbox {
+  .radio__visible {
+    border-radius: 0;
+
+    &:before {
+      background: url("../../img/ok.png") center center no-repeat;
+    }
+  }
+}
+
+.radio__elem {
+  display: none;
+
+  &:checked ~ .radio__visible {
+    &::before {
+      display: block;
+    }
+  }
+}
+
+.radio__visible {
+  width: 1.444rem;
+  height: 1.444rem;
+  position: relative;
+  border-radius: 50%;
+  background: $white;
+
+  &:before {
+    content: "";
+    width: 0.778rem;
+    height: 0.778rem;
+    background: $yellow;
+    border-radius: 50%;
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+
+
+.radio__title {
+  color: $white;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.222rem;  
+}

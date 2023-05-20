@@ -1,0 +1,123 @@
+.section--reviews {
+  background: #FFFFFF;
+  height: 36.222rem;
+  padding-top: 3.222rem;
+}
+
+.title-reviews {
+  color: #292929;
+  font-weight: 700;
+  font-size: 2.667rem;
+  line-height: 3.222rem;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.opened-review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.opened-review__inner {
+  padding: 2.333rem 7.889rem 2.333rem 2.333rem;
+  background: #F8FAF9;
+  width: 52.222rem;
+  height: 19.333rem;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 1.778rem;
+  margin-bottom: 0.833rem;
+  margin-left: 4.111rem;
+}
+
+.photo {
+  margin-right: 2.222rem;
+}
+
+.title-review {
+  color: #292929;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.778rem;
+  margin-top: 1.556rem;
+}
+
+.the-review {
+  margin-top: 0.778rem;
+  color: #666666;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.222rem;
+}
+
+.name {
+  color: #292929;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.333rem;
+  margin-top: 1.389rem;
+}
+
+.review-pages__link {
+  border-radius: 50%;
+  width: 4.111rem;
+  height: 4.111rem;
+  margin: 0.333rem;
+}
+
+.review-pages__link:hover {
+  border: 0.333rem solid #FEDB3F;
+}
+
+.review-pages__link:focus {
+  border: 0.333rem solid #FEDB3F;
+}
+
+.photo-one {
+  background: url(../../img/photo1.png) center center no-repeat;
+  background-size: contain;
+}
+
+.photo-two {
+  background: url(../../img/photo2.png) center center no-repeat;
+  background-size: contain;
+}
+
+.photo-three {
+  background: url(../../img/photo3.png) center center no-repeat;
+  background-size: contain;
+}
+
+.review-pages {
+  margin-left: 19.611rem;
+  margin-bottom: 3.5rem;
+}
+
+.review-pages__list {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3.5rem;
+}

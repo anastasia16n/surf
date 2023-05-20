@@ -1,0 +1,104 @@
+.section--why {
+  background: #FFFFFF;
+  min-height: 36.389rem;
+}
+
+.why_title {
+  color: #292929;
+  font-weight: 700;
+  font-size: 2.667rem;
+  line-height: 3.222rem;
+  text-transform: uppercase;
+  padding-top: 5.944rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 0.9444rem;
+}
+
+.why_subtitle {
+  color: #666666;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2222rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin-bottom: 2.722rem;
+}
+
+.why_subtitle-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 24.222rem;
+}
+
+.ellipse {
+  border-radius: 3.889rem;
+  width: 7.111rem;
+  background: #F2F5F4;
+  height: 7.111rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.1111rem;
+  display: flex;
+  margin-left: 4.167rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.arguments {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.arg {
+  width: 15.5rem;
+  margin-right: 2.944rem;
+}
+
+.arg:last-child {
+  margin-right: 0;
+}
+
+.title-arg {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1.7778rem;
+  color: #292929;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.1111rem;
+}
+
+.arg-subtitle {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.2222rem;
+  color: #666666;
+  text-align: center;
+}

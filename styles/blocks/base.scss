@@ -1,0 +1,29 @@
+html {
+	font-family: "Alegreya Sans";
+	scroll-behavior: smooth;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+.wrapper__content {
+  min-height: 100%;
+	min-width: 100%;
+	position: relative;
+}
+
+.included .included__design {
+	background-position: 0 0;
+}
+
+.section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-content: center;
+	height: 100vh;
+	min-height: 36.111rem;
+}
