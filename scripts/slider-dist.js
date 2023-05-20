@@ -1,0 +1,1 @@
+var r;r=$(".products").bxSlider({pager:!1,controls:!1}),$("product-slider__arrow--direction--prev").click((function(e){e.preventDefault(),r.goToPrevSlide()})),$("product-slider__arrow--direction--next").click((function(e){e.preventDefault(),r.goToNextSlide()}));

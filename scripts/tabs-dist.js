@@ -1,0 +1,1 @@
+$(".reviews-switcher__link").click((function(e){e.preventDefault();var t,i=$(e.currentTarget),a=i.attr("data-open"),s=(t=a,$(".reviews__item").filter((function(e,i){return $(i).attr("data-linked-with")===t}))),r=i.closest(".reviews-switcher__item");s.addClass("active").siblings().removeClass("active"),r.addClass("active").siblings().removeClass("active")}));
