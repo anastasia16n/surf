@@ -1,0 +1,25 @@
+.section__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  text-transform: uppercase;
+}
+
+.player {
+  width: rem(662px);
+  height: rem(391.82px);
+  display: flex;
+}
+
+.player-section__container {
+  display: flex;
+  justify-content: center;
+}
+
+.player__wrapper {
+  background: url(../../img/shortboard.jpg);
+  display: block;
+}

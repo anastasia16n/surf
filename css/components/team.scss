@@ -1,0 +1,50 @@
+.section__title {
+	font-weight: 700;
+	font-size: rem(48px);
+	line-height: rem(58px);
+	color: $blackTitle;
+	text-transform: uppercase;
+	margin-bottom: 2.944rem;
+}
+
+.team {
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.team__item {
+	width: 12.222rem;
+}
+
+.team__member-pic {
+	margin-right: 1.111rem;
+	margin-bottom: 1.167rem;
+}
+.team__member-pic:last-child {
+	margin-right: 0;
+}
+
+.team__title {
+	font-weight: 700;
+	font-size: rem(21px);
+	line-height: rem(25px);
+	color: $black;
+}
+
+.team__occ {
+	font-weight: 400;
+	font-size: rem(18px);
+	line-height: rem(22px);
+	color: $black;
+	margin-top: 0.444rem;
+	margin-bottom: 0.222rem;
+}
+
+.team__content-text {
+	font-weight: 300;
+	font-size: rem(18px);
+	line-height: rem(22px);
+	color: $grey;
+}
