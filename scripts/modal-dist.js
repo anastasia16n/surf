@@ -1,1 +1,0 @@
-$(".form").submit((function(t){t.preventDefault()}));
