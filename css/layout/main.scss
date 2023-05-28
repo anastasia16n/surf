@@ -1,0 +1,44 @@
+$containerWidth: 1100px;
+$baseFontSize: 18px;
+
+//colors
+$yellow: #FEDB3F;
+$greyBg: #F8FAF9;
+$white: #FFFFFF;
+$blackTitle: #292929;
+$black: #000000;
+$grey: #666666;
+
+//breakpoints
+$tablets: 768px;
+$phones: 480px;
+
+//normalize
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+@import "./styles/media.scss";
+
+//setups
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400;500;700;800&display=swap');
+@import "./layout.scss";
+
+//components
+@import "./base.scss";
+@import "./styles/header.scss";
+@import "./styles/welcome-page.scss";
+@import "./styles/features.scss";
+@import "./styles/why.scss";
+@import "./styles/benefits.scss";
+@import "./styles/reviews.scss";
+@import "./styles/team.scss";
+@import "./styles/menu.scss";
+@import "./styles/products-slider.scss";
+@import "./styles/team.scss";
+@import "./styles/work.scss";
+@import "./styles/form.scss";
+@import "./styles/radio.scss";
+@import "./styles/fixed-menu.scss";
+@import "./styles/contacts.scss";
+@import "./styles/footer.scss";
+@import "./styles/hamburger.scss";
+@import "./styles/products-slider.scss";

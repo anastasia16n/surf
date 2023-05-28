@@ -1,0 +1,28 @@
+$containerWidth: 1100px;
+$baseFontSize: 18px;
+
+$yellow: #FEDB3F;
+$greyBg: #F8FAF9;
+$white: #FFFFFF;
+$blackTitle: #292929;
+$black: #000000;
+$grey: #666666;
+
+$tablets: 768px;
+$phones: 480px;
+
+@function rem($px) {
+  @return $px / 18px + 0rem;
+}
+
+@mixin tablets {
+  @media screen and (max-width: $tablets) {
+    @content;
+  }
+}
+
+@mixin phones {
+  @media screen and (max-width: $phones) {
+    @content;
+  }
+}

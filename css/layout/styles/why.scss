@@ -1,0 +1,26 @@
+.why__title {
+  color: $blackTitle;
+  font-weight: 700;
+  font-size: 2.667rem;
+  line-height: 3.222rem;
+  text-transform: uppercase;
+  padding-top: 5.944rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.9444rem;
+}
+
+.why__subtitle-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.2222rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 2.722rem;
+  padding: 0 26%;
+
+  @include phones {
+    padding: 0 5%;
+  }
+}
